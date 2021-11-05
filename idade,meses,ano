@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+main()
+{
+    int anos,meses,dias,total;
+    printf("digite a idade da pessoa em anos, meses e dias");
+    scanf("%d %d %d,&anos,&meses,&dias");
+    total= anos*365+meses*30+dias;
+    printf("a idade da pessoa em dias eh %d\n",total);
+    system("pause");
+
+return 0;
+}
